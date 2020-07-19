@@ -1,4 +1,4 @@
-
+// Chromebook inherit the attributes of Item
 public class Chromebook extends Item{
 	private String os;
 
@@ -12,9 +12,9 @@ public class Chromebook extends Item{
 	}
 	
 	public String toString(){
-		String output = "";
-		// Write your codes here
-		return output;
+		//Added by Larry
+		String info = super.toString();
+		return String.format("%-63s %-20s", info, getOs());
 	}
 }
 

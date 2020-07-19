@@ -1,7 +1,6 @@
-
+// Camcorder inherit the attributes of Item
 public class Camcorder extends Item{
 	private int opticalZoom;
-	//added by Larry
 	public Camcorder(String assetTag, String description, int opticalZoom) {
 		super(assetTag, description);
 		this.opticalZoom = opticalZoom;
@@ -12,9 +11,9 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-		String output = "";
-		// Write your codes here
-		return output;
+		//Added by Larry 
+		String info = super.toString();
+		return String.format("%-63s %-20d", info, getOpticalZoom());
 	}
 }
 
