@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-//added by loh
+//added by loh 1
 public class ResourceCentreTest {
 	private Camcorder cc1;
 	private Camcorder cc2;
