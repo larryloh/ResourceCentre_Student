@@ -30,7 +30,7 @@ public class ResourceCentre {
 				ResourceCentre.setHeader("ITEM TYPES");
 				System.out.println("1. Camcorder");
 				System.out.println("2. Chromebook");
-				//test push and commit 1
+				//test push and commit 2
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
 				if (itemType == 1) {
